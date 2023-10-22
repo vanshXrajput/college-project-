@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #63636359;
+    padding: 10px;
+    display: flex;
+  }
+  .nav-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 3px;
+    flex-direction: row;  
+    text-align: center;
+  }
+ .nav-list a{
+    color: rgb(0, 0, 0);
+    margin: 30px;
+    text-decoration: none;
+    text-align: center;
+   
+ }
+.nav-list a:hover {
+    border-radius: 10px;
+    padding: 5px;
+background-color: rgb(111, 111, 111);
+color: white;
+  }
+  
